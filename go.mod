@@ -1,3 +1,2 @@
-module github.com/salihyakuphankeskin/Golang-Learning
-
+module main
 go 1.21.4
