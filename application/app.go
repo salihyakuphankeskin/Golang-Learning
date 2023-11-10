@@ -1,4 +1,4 @@
-package a6yu7s
+package myApp
 
 import(
 	"fmt"
