@@ -1,7 +1,11 @@
 package main
 
-import "github.com/salihyakuphankeskin/Golang-Learning/internal/module1"
+import (
+	"fmt"
+	"github.com/salihyakuphankeskin/Golang-Learning/internal/module1"
+)
 
 func main() {
+	fmt.Println("new Hello")
 	module1.sayHello()
 }
