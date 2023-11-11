@@ -1,9 +1,9 @@
 package main
 
-
-import	(
+import (
 	"fmt"
-	"github.com/salihyakuphankeskin/Project-Golong-Learning/app/side"
+
+	"main/app"
 )
 
 var truthFind bool
@@ -12,6 +12,10 @@ var truthFind bool
 func main() {
 	part_I()
 	fmt.Println(truthFind)
+	c:=app.Adder(1,2)
+	d:=app.Substracter(3,2)
+	e:=app.HighOrder(2,3)
+	fmt.Println(c," and ", d, " and ", e)
 	fmt.Scanln()
 }
 
