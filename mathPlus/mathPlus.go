@@ -1,4 +1,4 @@
-package app
+package mathPlus
 import "math"
 
 func Adder(a,b int) int {
@@ -8,4 +8,7 @@ func Adder(a,b int) int {
 func HighOrder(a,b int) int {
 	c:= math.Pow(float64(a), float64(b))
 	return int(c)		
+}
+func Substracter(a,b int) int {
+	return a-b	
 }
