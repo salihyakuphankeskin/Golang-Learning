@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"newProject/arrayFuncs"
-	"newProject/mathPlus"
 	"newProject/flowControl"
+	"newProject/mathPlus"
+	"newProject/moreTypes"
 )
 
 var truthFind bool
@@ -13,14 +14,12 @@ var truthFind bool
 func main() {
 	part_I()
 	fmt.Println(truthFind)
-	c:= mathPlus.Adder(1,2)
-	d:= mathPlus.Substracter(3,2)
-	e:= mathPlus.HighOrder(2,3)
-	fmt.Println(c," and ", d, " and ", e)
-	flowControl.MyForLoop(5)
+	mathPlus.Runner()
+	flowControl.Runner()
+	moreTypes.Runner()
+	
 
-
-	fmt.Scanln()
+	// fmt.Scanln()
 }
 
 
